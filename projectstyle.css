@@ -1,0 +1,121 @@
+
+
+/* CSS RESET */
+body {
+    font-family: "Sofia", sans-serif;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url('man-2604149_1920.jpg');
+
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 85px;
+    padding: 17px;
+    filter: invert(100%);
+
+}
+
+.left div {
+    text-align: center;
+    font-size: medium;
+    /* display: inline-block; */
+    /* width: 120px; */
+    /* padding: 6px; */
+
+    /* border: 2px solid rebeccapurple; */
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 18px auto;
+    /* border: 2px solid rgb(221, 232, 21); */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid rgb(15, 107, 220); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+
+    /* inline block to make in one line  */
+    font-size: 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline rgb(235, 6, 6);
+    color: rgb(3, 48, 116);
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 7px;
+}
+
+.btn {
+    font-family: "Sofia", sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(1, 36, 25);
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 106px 80px;
+    padding: 10px;
+    width: 29%;
+    border-radius: 28px;
+}
+
+.formgroup input {
+    text-align: center;
+    display: block;
+    width: 340px;
+    padding: 1px;
+    /* border: 2p solid black; */
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+
