@@ -1,0 +1,1 @@
+this repository is only for algorithms and data structure that use for making food delivery webappin which you can upload in any language algorithms which will useful for many other people. happy coding 👨‍💻.
